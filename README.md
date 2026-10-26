@@ -127,14 +127,31 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 
 `graphwar_curve.py` works without any of that.
 
+## Disclaimer
+
+**Unofficial.** This project is not affiliated with, endorsed by, or sponsored by the
+author of Graphwar. The name "Graphwar" is used descriptively, to say what is being
+analysed.
+
+* Graphwar II is a **commercial product** (paid on Steam, free with paid cosmetics on
+  Android). Nothing here redistributes, replaces or modifies any part of it: no binaries,
+  no assets, no network protocol, and nothing that circumvents licensing, purchases or
+  advertising. `.gitignore` enforces that and `analysis/regen.sh` rebuilds the derived
+  files from *your own* copy of the game.
+* This is **an offline calculator and a research write-up**, not an in-game assistant.
+  It does not read the game's memory, hook the running client, or automate play.
+  Please don't use it to build automated tools for online matches — that's against the
+  spirit of the game and the author has not endorsed it.
+* If the author of Graphwar objects to any material here, it will be removed on request.
+
 ## Legal / license
 
-* No game binaries, extracted assets, strings dumps or decompiler output are committed —
-  `.gitignore` keeps them out, `analysis/regen.sh` regenerates them locally.
-  Some of those files contain the developer's build paths, which is a second reason to keep them out.
+* The repository is **GPL-3.0-or-later** (`LICENSE`): that keeps it compatible with the
+  Graphwar 1 sources it builds on, and it means anyone may reuse this analysis.
+  It grants no rights over the game itself.
 * `analysis/gw1_model.py` and `analysis/gw1_parser.py` are ports of Graphwar 1, which is
   **GPL-3.0** (© Lucas Catabriga Rocha) — see `NOTICE.md`.
-* This is reverse engineering for research/interoperability; Graphwar is the property of its author.
+* Graphwar, Graphwar II and their assets remain the property of their author.
 
 ## Credits
 

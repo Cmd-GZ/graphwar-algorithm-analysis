@@ -31,9 +31,9 @@ They exist only so the GW1 and GW2 samplers can be compared on equal footing
 Practical consequence: you cannot relicense *those two files* under a more permissive
 licence. Everything else is the author's own work.
 
-**Suggested licence for the repository as a whole: GPL-3.0-or-later**
-(simplest way to stay compatible with the ports; a `LICENSE` file with the full GPL text
-still needs to be added — the repository owner should confirm the choice).
+**The repository as a whole is licensed GPL-3.0-or-later** (see `LICENSE`), which keeps it
+compatible with those ports. Note that this licence covers *this repository's* contents only
+and grants no rights whatsoever over the game itself.
 
 ## 3. What this work is / is not
 
@@ -44,3 +44,15 @@ still needs to be added — the repository owner should confirm the choice).
   network protocol or payment code was touched.
 * Graphwar, Graphwar II and their assets belong to their author. If the author objects to
   anything here, the affected material will be removed.
+
+## 4. Unofficial project / commercial product
+
+* Graphwar II is sold commercially (Steam) and monetised on Android through optional
+  in-app purchases. This repository redistributes **none** of it and does not interact
+  with any licensing, purchase, advertising or DRM logic — the analysis is limited to the
+  numerical routine that turns a typed function into trajectory points.
+* Nothing here is an in-game assistant: no memory reading, no client hooking, no
+  automated play. It is an offline calculator plus a written analysis.
+* "Graphwar" appears only as a descriptive reference to the subject of the analysis.
+  This project is not affiliated with, endorsed by, or sponsored by the game's author.
+* If the author requests removal of any material, it will be removed.
