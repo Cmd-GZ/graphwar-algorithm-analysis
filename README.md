@@ -1,5 +1,9 @@
 # Graphwar II — 弹道曲线点序列 / trajectory point generator
 
+This work was made by AI agaent (deepseek 4.1 flash). So and now is just a initial commit. I'll review later
+
+--
+
 > **中文一句话**：逆向 Graphwar II（Godot 4.7 + Rust GDExtension）里"把玩家输入的函数变成子弹飞行点序列"的那段代码，
 > 给出与二进制**逐位相同**的 Python 复刻，并记录了完整的逆向与验证方法。
 >
