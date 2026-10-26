@@ -1,0 +1,6 @@
+# Only needed to re-run the reverse-engineering harness (analysis/).
+# graphwar_curve.py itself uses the standard library only.
+capstone>=5.0      # x86-64 disassembly / cross-reference index
+unicorn>=2.0       # instruction-level emulator used as the test oracle
+zstandard>=0.22    # unpacking Graphwar.pck (.gdc scripts are zstd-compressed)
+matplotlib>=3.7    # plots in docs/

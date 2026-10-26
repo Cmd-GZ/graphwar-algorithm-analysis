@@ -1,0 +1,48 @@
+# ---------------------------------------------------------------------------
+# Game files -- NOT redistributed. Drop your own copies here to re-run the
+# analysis; graphwar_curve.py and REPORT.md work without them.
+# ---------------------------------------------------------------------------
+Graphwar.x86_64
+Graphwar.pck
+libgraphwarrust.so
+start_graphwar.sh
+*.pck
+*.so
+*.dll
+*.dylib
+*.exe
+
+# ---------------------------------------------------------------------------
+# Artifacts derived from the game binary (contain the game's strings, the
+# developer's build paths and decompiled code -- regenerate them locally).
+# ---------------------------------------------------------------------------
+analysis/lib_strings.txt
+analysis/decomp_*.c
+analysis/shotcalc.asm
+analysis/pck/
+analysis/pck_index.json
+analysis/funcstarts.txt
+analysis/*.pkl
+analysis/ghidra_proj/
+
+# ---------------------------------------------------------------------------
+# Local tooling / caches
+# ---------------------------------------------------------------------------
+tools/
+.venv/
+venv/
+.mpl/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---------------------------------------------------------------------------
+# Editor / OS noise
+# ---------------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
